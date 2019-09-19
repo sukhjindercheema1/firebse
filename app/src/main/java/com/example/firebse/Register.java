@@ -42,7 +42,7 @@ public class Register extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_register, container, false);
+        return inflater.inflate(R.layout.register, container, false);
     }
 
     @Override
@@ -152,17 +152,7 @@ public class Register extends Fragment {
                         }
                     });
 
-                   /* db.collection("users").document(user.getUid()).add(usermap).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-                        @Override
-                        public void onSuccess(DocumentReference documentReference) {
 
-                            System.out.println("FireStoreID : "+documentReference.getId());
-                            Toast.makeText(getActivity().getApplicationContext(),"Registration Success!",Toast.LENGTH_LONG).show();
-
-                        }
-
-                    });
-*/
 
                 }else {
 

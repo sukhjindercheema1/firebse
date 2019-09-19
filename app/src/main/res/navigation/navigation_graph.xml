@@ -6,18 +6,18 @@
     app:startDestination="@id/loginScreen">
 
     <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.firebse.sim"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/sindel" />
+    <fragment
         android:id="@+id/loginScreen"
         android:name="com.example.firebse.LoginScreen"
         android:label="fragment_login_screen"
-        tools:layout="@layout/fragment_login_screen" />
+        tools:layout="@layout/login_screen" />
     <fragment
         android:id="@+id/register"
         android:name="com.example.firebse.Register"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
-    <fragment
-        android:id="@+id/dashboard"
-        android:name="com.example.firebse.Dashboard"
-        android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/register" />
 </navigation>
